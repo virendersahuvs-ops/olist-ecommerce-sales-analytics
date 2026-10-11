@@ -1,0 +1,34 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache (if Python is added later)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Database exports and large data files
+*.sql.gz
+*.dump
+*.bak
+*.zip
+*.csv
+*.xlsx
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+
+# Temporary and log files
+*.log
+*.tmp
+
+# MySQL Workbench backup files
+*.mwb.bak
